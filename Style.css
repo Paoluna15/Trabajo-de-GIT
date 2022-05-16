@@ -74,7 +74,7 @@ a.link-to-book:hover {
     text-decoration: none;
 }
  
-.about-section h3 {
+.descripcion h3 {
     text-align: center;
     width: 60%;
     margin: auto;
@@ -82,8 +82,13 @@ a.link-to-book:hover {
     font-size: 1.8em;
     text-transform: uppercase;
 }
-.carousel-inner {
-    height: 700px;
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 20px;
+    height: 70px;
+    
+
 }
  
 .row-flex {
